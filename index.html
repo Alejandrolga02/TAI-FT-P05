@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preload" href="css/styles.css" as="style">
+	<link rel="preload" href="js/app.js" as="script">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Practica 03 - Practica Pre examen</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="form">
+			<label for="idUsuario" class="input-label">ID Usuario</label>
+			<input type="text" id="idUsuario" class="input-form">
+			<button id="btnBuscar" class="boton">Buscar</button>
+		</div>
+		<div class="results">
+			<label for="txtNombre" class="input-label">Nombre</label>
+			<input type="text" id="txtNombre" class="input-form" readonly>
+			<label for="txtUsuario" class="input-label">Nombre Usuario</label>
+			<input type="text" id="txtUsuario" class="input-form" readonly>
+			<label for="txtEmail" class="input-label">Email</label>
+			<input type="text" id="txtEmail" class="input-form" readonly>
+			<label for="txtCalle" class="input-label">Calle</label>
+			<input type="text" id="txtCalle" class="input-form" readonly>
+			<label for="txtNumero" class="input-label">Numero</label>
+			<input type="text" id="txtNumero" class="input-form" readonly>
+			<label for="txtCiudad" class="input-label">Ciudad</label>
+			<input type="text" id="txtCiudad" class="input-form" readonly>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
